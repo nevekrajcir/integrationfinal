@@ -141,7 +141,7 @@ x = 12
 if x > 2 and x < 20:
     # And is used for conditions, and the variable must meet both conditions to be true.
     print("True.")
-elif x > 20:
+elif not x > 20:
     # The > sign is to say x is greater than 20.
     # Not is used to say the variable can not be a certain value, otherwise not all requirements are met.
     print("Not all requirements meant.")
